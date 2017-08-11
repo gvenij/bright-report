@@ -1,0 +1,223 @@
+@import "bourbon";
+@import "fonts";
+@import "libs";
+@import "vars";
+
+*::-webkit-input-placeholder {
+  color: #666666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666666;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666666;
+}
+
+html, body {
+  height: 100%; 
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.75;
+  font-family: $default-font;
+  overflow-x: hidden;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.report {
+	padding-top: 35px;
+}
+
+.report-list {
+	padding: 50px 0;
+}
+
+.report-item-name {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	a {
+		color: inherit;
+	}
+
+	i {
+		font-size: 0.6em;
+	}
+}
+
+.report-item-heading {
+	position: relative;
+	padding: 20px 5px;
+	margin-bottom: 10px;
+	background: $gray-lighter;
+	border-radius: $br-default; 
+}
+
+.report-item-subheading {
+  margin-bottom: 0;
+	font-size: 90%;
+	color: $gray;
+} 
+
+.report-item-price {
+	font-size: 1.35em;
+	font-weight: bold;
+}
+
+.report-item-id {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 0.7em;
+	background: #8a8a8a;
+	border-radius: $br-default;
+}
+
+.report-item-image {
+	img {
+		    width: 350px;
+    		max-height: 250px;
+        max-width: 100%;
+	}
+}
+
+.report-item-contacts {
+  dt {
+    width: 120px;
+    text-align: left;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.85em;
+  }
+  dl {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  dd {
+    margin-left: 135px;
+  }
+
+  .panel {
+    border-radius: $br-default;
+  }
+
+  .panel-body {
+    font-size: 0.95em;   
+  }
+
+  .panel-heading {
+    background: transparent; 
+  }
+
+  th {
+    font-size: 0.9em;
+  }
+
+
+table {
+  margin-bottom: 0;
+  tbody {
+    tr, td, th {
+        border: none;
+
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+  }
+}
+  
+
+  tr:first-child {
+    border-bottom: 1px solid $gray-lighter;
+    border-top: 1px solid $gray-lighter; 
+  }
+}
+
+.report-item-contacts-heading {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.report-item-links {
+  font-size: 0.9em;
+  span {
+    margin-right: 5px;
+  }
+  a {
+    display: inline-block;
+    margin-right: 8px;
+
+    i {
+      font-size: 0.75em;
+    }
+  }
+}
+
+.report-listing-heading {
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: $gray-lighter;
+  border-radius: $br-default;
+  border: 1px solid $gray-light;
+}
+
+.report-listing {
+  margin-bottom: 15px;
+  font-size: 0.9em;
+}
+
+.report-listing-key { 
+  font-weight: bold; 
+}
+
+.report-listing-item {
+  margin-left: 20px;
+  font-size: 0.9em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.spaced-heading {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+@import "media" // Всегда в конце
