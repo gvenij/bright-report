@@ -1,18 +1,11 @@
 {
-<<<<<<< HEAD
   "name": "bright-report",
   "version": "1.0.0",
   "description": "",
-=======
-  "name": "bright report",
-  "version": "2.0.0",
-  "description": "OptimizedHTML - Start HTML Template",
->>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gvenij/bright-report.git"
@@ -23,10 +16,6 @@
     "url": "https://github.com/gvenij/bright-report/issues"
   },
   "homepage": "https://github.com/gvenij/bright-report#readme",
-=======
-  "author": "gvenij",
-  "license": "ISC",
->>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
   "devDependencies": {
     "browser-sync": "^2.18.6",
     "del": "^2.2.2",
@@ -44,8 +33,4 @@
     "node-bourbon": "^4.2.8",
     "vinyl-ftp": "^0.5.0"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf

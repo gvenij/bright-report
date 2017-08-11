@@ -16,8 +16,18 @@
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px){
-	
+@media only screen and (max-width : 767px){
+		.table-responsive > .table {
+			margin-bottom: 15px;
+		}
+
+		.report-listing-items > div + div .report-listing-item{
+        border-top: 1px solid $gray-light; 
+    } 
+
+    .report-item-links { 
+    	padding: 10px 0; 
+    }
 }
 
 

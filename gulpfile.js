@@ -18,7 +18,7 @@ var gulp           = require('gulp'),
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/js/common.js', // Всегда в конце
+		'app/js/common.js',
 		])
 	.pipe(concat('scripts.min.js'))
 	.pipe(uglify())
@@ -31,9 +31,7 @@ gulp.task('browser-sync', function() {
 		server: {
 			baseDir: 'app'
 		},
-		notify: false,
-		// tunnel: true,
-		// tunnel: "projectmane", //Demonstration page: http://projectmane.localtunnel.me
+		notify: false
 	});
 });
 
