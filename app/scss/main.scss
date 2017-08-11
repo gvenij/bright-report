@@ -73,6 +73,7 @@ body {
 	}
 }
 
+<<<<<<< HEAD
 .report-item {
   border-top: 1px solid $gray-light;
   margin-bottom: 30px;
@@ -82,6 +83,13 @@ body {
 	position: relative;
 	padding-top: 15px;
   margin-bottom: 10px;
+=======
+.report-item-heading {
+	position: relative;
+	padding: 20px 5px;
+	margin-bottom: 10px;
+	background: $gray-lighter;
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 	border-radius: $br-default; 
 }
 
@@ -89,10 +97,13 @@ body {
   margin-bottom: 0;
 	font-size: 90%;
 	color: $gray;
+<<<<<<< HEAD
 
   i {
     font-size: 0.85em;
   }
+=======
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 } 
 
 .report-item-price {
@@ -101,8 +112,17 @@ body {
 }
 
 .report-item-id {
+<<<<<<< HEAD
 	font-size: 0.8em;
   margin-bottom: 0;
+=======
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 0.7em;
+	background: #8a8a8a;
+	border-radius: $br-default;
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 }
 
 .report-item-image {
@@ -133,6 +153,7 @@ body {
     margin-left: 135px;
   }
 
+<<<<<<< HEAD
   // .panel {
   //   border-radius: $br-default;
   // }
@@ -144,6 +165,19 @@ body {
   // .panel-heading {
   //   background: transparent; 
   // }
+=======
+  .panel {
+    border-radius: $br-default;
+  }
+
+  .panel-body {
+    font-size: 0.95em;   
+  }
+
+  .panel-heading {
+    background: transparent; 
+  }
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 
   th {
     font-size: 0.9em;
@@ -161,10 +195,13 @@ table {
         }
       }
   }
+<<<<<<< HEAD
 
   i {
     color: $gray-light;
   }
+=======
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 }
   
 
@@ -174,11 +211,19 @@ table {
   }
 }
 
+<<<<<<< HEAD
 .report-item-contacts-body {
   padding: 12px;
 }
 
 
+=======
+.report-item-contacts-heading {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 .report-item-links {
   font-size: 0.9em;
   span {
@@ -201,10 +246,13 @@ table {
   background: $gray-lighter;
   border-radius: $br-default;
   border: 1px solid $gray-light;
+<<<<<<< HEAD
 
   p {
     margin-bottom: 0;
   }
+=======
+>>>>>>> 096c825a486d52b790d35dc5f60fee3437d501cf
 }
 
 .report-listing {
